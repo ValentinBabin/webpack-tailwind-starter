@@ -81,6 +81,10 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+<<<<<<< HEAD
+=======
+public/
+>>>>>>> 8f5fcdd (Init commit)
 
 # Gatsby files
 .cache/
@@ -102,3 +106,8 @@ dist
 
 # TernJS port file
 .tern-port
+<<<<<<< HEAD
+=======
+
+package-lock.json
+>>>>>>> 8f5fcdd (Init commit)
