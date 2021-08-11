@@ -30,6 +30,31 @@ module.exports = {
             }
         },
         {
+            test: /\.s[ac]ss$/i,
+            use: [
+                MiniCssExtractPlugin.loader,
+                { loader: "css-loader", options: { url: false } },
+                {
+                    loader: 'postcss-loader',
+                    options: {
+                        postcssOptions: {
+                            plugins: [
+                                require('autoprefixer')
+                            ],
+                        },
+                    },
+                },
+                {
+                    loader: 'sass-loader',
+                    options: {
+                        sassOptions: {
+                            outputStyle: 'expanded',
+                        },
+                    },
+                },
+            ],
+        },
+        {
             test: /\.css$/i,
             use: [
                 MiniCssExtractPlugin.loader,

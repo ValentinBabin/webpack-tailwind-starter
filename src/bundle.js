@@ -1,3 +1,5 @@
+import './master.scss';
+
 import './tailwind.css';
 
 import './js/basic_script';

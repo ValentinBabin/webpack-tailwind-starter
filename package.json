@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set TAILWIND_MODE=watch&postcss tailwind.css -o ./styles.css -w --verbose",
-    "prod": "NODE_ENV=production postcss ./tailwind.css -o ./styles.css",
-    "webpack_dev": "webpack --mode=development",
-    "webpack_watch": "webpack --mode=development --watch",
-    "webpack_prod": "webpack --mode=production"
+    "dev": "webpack --mode=development",
+    "watch": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Valentin Babin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValentinBabin/webpack-tailwind-starter"
+  },
+  "homepage": "https://github.com/ValentinBabin/webpack-tailwind-starter",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
