@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode=development",
     "watch": "webpack --mode=development --watch",
-    "prod": "webpack --mode=production"
+    "prod": "webpack --mode=production",
+    "config": "node config_tailwind.mjs"
   },
   "keywords": [],
   "author": {
@@ -53,6 +54,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
     "cssnano": "^5.0.7",
     "trim": "0.0.3"
   }
