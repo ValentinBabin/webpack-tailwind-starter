@@ -68,7 +68,7 @@ function updateTailwindFile(dataToConfig, callback) {
 /**
  * Log method
  * @param message message to display
- * @param status stautus message (reference to varibale logStatusMsg)
+ * @param status stautus message (reference to variable logStatusMsg)
  */
 function logger(message, status) {
     const currentTime = new Date();
